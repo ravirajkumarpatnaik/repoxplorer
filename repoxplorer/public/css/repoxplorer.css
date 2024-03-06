@@ -1,0 +1,76 @@
+.jumbotron {
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    padding-left: 0.5%;
+}
+
+#groups-index {
+    font-size: 150%;
+}
+
+#projects-filter-form {
+    width: 100%;
+}
+
+#projects-filter-input {
+    width: 80%;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin .7s infinite linear;
+    -ms-animation: spin .7s infinite linear;
+    -webkit-animation: spinw .7s infinite linear;
+    -moz-animation: spinm .7s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
+@-webkit-keyframes spinw {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spinm {
+    from { -moz-transform: rotate(0deg);}
+    to { -moz-transform: rotate(360deg);}
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project-panel-logo {
+    text-align: center;
+}
+
+.project-panel-logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.project-panel-name h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-panel-button {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-panel-detail {
+    display: none;
+}
+
+.project-panel-detail h3 {
+    background-color: #F2F2F2;
+}
+
+.blank-separator {
+    margin-top: 15px;
+}
